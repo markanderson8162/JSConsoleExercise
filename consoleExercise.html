@@ -25,6 +25,13 @@
         }
       ];
       console.table(artists);
+      
+      for(i = 0; i < artists.length; i++){
+        if(artists[i].first == "Chaim"){
+          h1.textContent = "I found you Chaim!";
+        }
+      }
+
       setTimeout(() => {
         h1.textContent = 'Hello, Console!';
         console.log(h1.textContent);
